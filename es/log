@@ -1,0 +1,369 @@
+2018-01-16 15:12:10.051  INFO 9952 --- [main] com.es.EsLauncher                        : Starting EsLauncher on zhs with PID 9952 (E:\other\springboot-es\target\classes started by zhenghuasheng in E:\other\springboot-es)
+2018-01-16 15:12:10.060  INFO 9952 --- [main] com.es.EsLauncher                        : No active profile set, falling back to default profiles: default
+2018-01-16 15:12:10.185  INFO 9952 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3cebbb30: startup date [Tue Jan 16 15:12:10 CST 2018]; root of context hierarchy
+2018-01-16 15:12:13.112  INFO 9952 --- [main] org.eclipse.jetty.util.log               : Logging initialized @5697ms
+2018-01-16 15:12:13.696  INFO 9952 --- [main] e.j.JettyEmbeddedServletContainerFactory : Server initialized with port: 9000
+2018-01-16 15:12:13.705  INFO 9952 --- [main] org.eclipse.jetty.server.Server          : jetty-9.2.17.v20160517
+2018-01-16 15:12:14.040  INFO 9952 --- [main] application                              : Initializing Spring embedded WebApplicationContext
+2018-01-16 15:12:14.041  INFO 9952 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3862 ms
+2018-01-16 15:12:14.475  INFO 9952 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-16 15:12:14.480  INFO 9952 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-16 15:12:14.481  INFO 9952 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-16 15:12:14.482  INFO 9952 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-16 15:12:14.482  INFO 9952 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-16 15:12:15.214  INFO 9952 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@272ce069{/,[file:/C:/Users/zhenghuasheng/AppData/Local/Temp/jetty-docbase.8036364936351311231.9000/],AVAILABLE}
+2018-01-16 15:12:15.215  INFO 9952 --- [main] org.eclipse.jetty.server.Server          : Started @7805ms
+2018-01-16 15:12:15.535  INFO 9952 --- [main] io.searchbox.client.AbstractJestClient   : Setting server pool to a list of 1 servers: [http://localhost:9200]
+2018-01-16 15:12:15.540  INFO 9952 --- [main] io.searchbox.client.JestClientFactory    : Using multi thread/connection supporting pooling connection manager
+2018-01-16 15:12:15.743  INFO 9952 --- [main] io.searchbox.client.JestClientFactory    : Using custom GSON instance
+2018-01-16 15:12:15.743  INFO 9952 --- [main] io.searchbox.client.JestClientFactory    : Node Discovery disabled...
+2018-01-16 15:12:15.743  INFO 9952 --- [main] io.searchbox.client.JestClientFactory    : Idle connection reaping disabled...
+2018-01-16 15:12:16.680  INFO 9952 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3cebbb30: startup date [Tue Jan 16 15:12:10 CST 2018]; root of context hierarchy
+2018-01-16 15:12:16.979  INFO 9952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-16 15:12:16.984  INFO 9952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-16 15:12:17.118  INFO 9952 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 15:12:17.119  INFO 9952 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 15:12:17.265  INFO 9952 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 15:12:28.928  INFO 9952 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-16 15:12:28.970  INFO 9952 --- [main] application                              : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-16 15:12:28.971  INFO 9952 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-16 15:12:29.009  INFO 9952 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms
+2018-01-16 15:12:29.034  INFO 9952 --- [main] o.eclipse.jetty.server.ServerConnector   : Started ServerConnector@3d7fb838{HTTP/1.1}{0.0.0.0:9000}
+2018-01-16 15:12:29.039  INFO 9952 --- [main] .s.b.c.e.j.JettyEmbeddedServletContainer : Jetty started on port(s) 9000 (http/1.1)
+2018-01-16 15:12:29.049  INFO 9952 --- [main] com.es.EsLauncher                        : Started EsLauncher in 19.906 seconds (JVM running for 21.638)
+2018-01-16 15:12:29.050  INFO 9952 --- [main] com.es.EsLauncher                        : ============= EsLauncher Start Success =============
+2018-01-16 16:19:29.064  INFO 6656 --- [main] com.es.EsLauncher                        : Starting EsLauncher on zhs with PID 6656 (E:\other\springboot-es\target\classes started by zhenghuasheng in E:\other\springboot-es)
+2018-01-16 16:19:29.094  INFO 6656 --- [main] com.es.EsLauncher                        : No active profile set, falling back to default profiles: default
+2018-01-16 16:19:29.417  INFO 6656 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12aba8be: startup date [Tue Jan 16 16:19:29 CST 2018]; root of context hierarchy
+2018-01-16 16:19:34.543  INFO 6656 --- [main] org.eclipse.jetty.util.log               : Logging initialized @20437ms
+2018-01-16 16:19:35.194  INFO 6656 --- [main] e.j.JettyEmbeddedServletContainerFactory : Server initialized with port: 9000
+2018-01-16 16:19:35.201  INFO 6656 --- [main] org.eclipse.jetty.server.Server          : jetty-9.2.17.v20160517
+2018-01-16 16:19:35.570  INFO 6656 --- [main] application                              : Initializing Spring embedded WebApplicationContext
+2018-01-16 16:19:35.571  INFO 6656 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6168 ms
+2018-01-16 16:19:36.101  INFO 6656 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-16 16:19:36.109  INFO 6656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-16 16:19:36.110  INFO 6656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-16 16:19:36.111  INFO 6656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-16 16:19:36.111  INFO 6656 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-16 16:19:37.094  INFO 6656 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@63c12e52{/,[file:/C:/Users/zhenghuasheng/AppData/Local/Temp/jetty-docbase.8890303504699757792.9000/],AVAILABLE}
+2018-01-16 16:19:37.096  INFO 6656 --- [main] org.eclipse.jetty.server.Server          : Started @22995ms
+2018-01-16 16:19:37.722  INFO 6656 --- [main] io.searchbox.client.AbstractJestClient   : Setting server pool to a list of 1 servers: [http://localhost:9200]
+2018-01-16 16:19:37.727  INFO 6656 --- [main] io.searchbox.client.JestClientFactory    : Using multi thread/connection supporting pooling connection manager
+2018-01-16 16:19:38.033  INFO 6656 --- [main] io.searchbox.client.JestClientFactory    : Using custom GSON instance
+2018-01-16 16:19:38.034  INFO 6656 --- [main] io.searchbox.client.JestClientFactory    : Node Discovery disabled...
+2018-01-16 16:19:38.034  INFO 6656 --- [main] io.searchbox.client.JestClientFactory    : Idle connection reaping disabled...
+2018-01-16 16:19:39.146  INFO 6656 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12aba8be: startup date [Tue Jan 16 16:19:29 CST 2018]; root of context hierarchy
+2018-01-16 16:19:39.355  INFO 6656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-16 16:19:39.357  INFO 6656 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-16 16:19:39.449  INFO 6656 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 16:19:39.449  INFO 6656 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 16:19:39.572  INFO 6656 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 16:19:55.974  INFO 6656 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-16 16:19:56.052  INFO 6656 --- [main] application                              : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-16 16:19:56.052  INFO 6656 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-16 16:19:56.092  INFO 6656 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 39 ms
+2018-01-16 16:19:56.133  INFO 6656 --- [main] o.eclipse.jetty.server.ServerConnector   : Started ServerConnector@21bd20ee{HTTP/1.1}{0.0.0.0:9000}
+2018-01-16 16:19:56.139  INFO 6656 --- [main] .s.b.c.e.j.JettyEmbeddedServletContainer : Jetty started on port(s) 9000 (http/1.1)
+2018-01-16 16:19:56.151  INFO 6656 --- [main] com.es.EsLauncher                        : Started EsLauncher in 28.824 seconds (JVM running for 42.05)
+2018-01-16 16:19:56.152  INFO 6656 --- [main] com.es.EsLauncher                        : ============= EsLauncher Start Success =============
+2018-01-16 16:25:12.588 ERROR 5440 --- [main] o.s.b.l.LoggingApplicationListener       : Cannot set level: INFO,stout for 'null'
+2018-01-16 16:25:12.824  INFO 5440 --- [main] com.es.EsLauncher                        : Starting EsLauncher on zhs with PID 5440 (E:\other\springboot-es\target\classes started by zhenghuasheng in E:\other\springboot-es)
+2018-01-16 16:25:12.825  INFO 5440 --- [main] com.es.EsLauncher                        : No active profile set, falling back to default profiles: default
+2018-01-16 16:25:12.976  INFO 5440 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1151e434: startup date [Tue Jan 16 16:25:12 CST 2018]; root of context hierarchy
+2018-01-16 16:25:15.026  INFO 5440 --- [main] org.eclipse.jetty.util.log               : Logging initialized @4507ms
+2018-01-16 16:25:15.291  INFO 5440 --- [main] e.j.JettyEmbeddedServletContainerFactory : Server initialized with port: 9000
+2018-01-16 16:25:15.295  INFO 5440 --- [main] org.eclipse.jetty.server.Server          : jetty-9.2.17.v20160517
+2018-01-16 16:25:15.457  INFO 5440 --- [main] application                              : Initializing Spring embedded WebApplicationContext
+2018-01-16 16:25:15.457  INFO 5440 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2488 ms
+2018-01-16 16:25:15.712  INFO 5440 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-16 16:25:15.716  INFO 5440 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-16 16:25:15.717  INFO 5440 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-16 16:25:15.717  INFO 5440 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-16 16:25:15.718  INFO 5440 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-16 16:25:16.128  INFO 5440 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@2849434b{/,[file:/C:/Users/zhenghuasheng/AppData/Local/Temp/jetty-docbase.4656670494844953876.9000/],AVAILABLE}
+2018-01-16 16:25:16.129  INFO 5440 --- [main] org.eclipse.jetty.server.Server          : Started @5613ms
+2018-01-16 16:25:16.351  INFO 5440 --- [main] io.searchbox.client.AbstractJestClient   : Setting server pool to a list of 1 servers: [http://localhost:9200]
+2018-01-16 16:25:16.354  INFO 5440 --- [main] io.searchbox.client.JestClientFactory    : Using multi thread/connection supporting pooling connection manager
+2018-01-16 16:25:16.485  INFO 5440 --- [main] io.searchbox.client.JestClientFactory    : Using custom GSON instance
+2018-01-16 16:25:16.486  INFO 5440 --- [main] io.searchbox.client.JestClientFactory    : Node Discovery disabled...
+2018-01-16 16:25:16.486  INFO 5440 --- [main] io.searchbox.client.JestClientFactory    : Idle connection reaping disabled...
+2018-01-16 16:25:16.955  INFO 5440 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1151e434: startup date [Tue Jan 16 16:25:12 CST 2018]; root of context hierarchy
+2018-01-16 16:25:17.067  INFO 5440 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-16 16:25:17.069  INFO 5440 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-16 16:25:17.147  INFO 5440 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 16:25:17.148  INFO 5440 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 16:25:17.228  INFO 5440 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 16:25:26.168  INFO 5440 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-16 16:25:26.235  INFO 5440 --- [main] application                              : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-16 16:25:26.236  INFO 5440 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-16 16:25:26.276  INFO 5440 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 40 ms
+2018-01-16 16:25:26.305  INFO 5440 --- [main] o.eclipse.jetty.server.ServerConnector   : Started ServerConnector@60bbacfc{HTTP/1.1}{0.0.0.0:9000}
+2018-01-16 16:25:26.318  INFO 5440 --- [main] .s.b.c.e.j.JettyEmbeddedServletContainer : Jetty started on port(s) 9000 (http/1.1)
+2018-01-16 16:25:26.333  INFO 5440 --- [main] com.es.EsLauncher                        : Started EsLauncher in 14.32 seconds (JVM running for 15.816)
+2018-01-16 16:25:26.334  INFO 5440 --- [main] com.es.EsLauncher                        : ============= EsLauncher Start Success =============
+2018-01-16 16:25:30.606 ERROR 1440 --- [main] o.s.b.l.LoggingApplicationListener       : Cannot set level: INFO,stdout for 'null'
+2018-01-16 16:25:30.784  INFO 1440 --- [main] com.es.EsLauncher                        : Starting EsLauncher on zhs with PID 1440 (E:\other\springboot-es\target\classes started by zhenghuasheng in E:\other\springboot-es)
+2018-01-16 16:25:30.784  INFO 1440 --- [main] com.es.EsLauncher                        : No active profile set, falling back to default profiles: default
+2018-01-16 16:25:30.910  INFO 1440 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1151e434: startup date [Tue Jan 16 16:25:30 CST 2018]; root of context hierarchy
+2018-01-16 16:25:32.805  INFO 1440 --- [main] org.eclipse.jetty.util.log               : Logging initialized @4122ms
+2018-01-16 16:25:33.065  INFO 1440 --- [main] e.j.JettyEmbeddedServletContainerFactory : Server initialized with port: 9000
+2018-01-16 16:25:33.070  INFO 1440 --- [main] org.eclipse.jetty.server.Server          : jetty-9.2.17.v20160517
+2018-01-16 16:25:33.235  INFO 1440 --- [main] application                              : Initializing Spring embedded WebApplicationContext
+2018-01-16 16:25:33.235  INFO 1440 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2331 ms
+2018-01-16 16:25:33.483  INFO 1440 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-16 16:25:33.488  INFO 1440 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-16 16:25:33.489  INFO 1440 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-16 16:25:33.489  INFO 1440 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-16 16:25:33.490  INFO 1440 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-16 16:25:33.996  INFO 1440 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@54e3658c{/,[file:/C:/Users/zhenghuasheng/AppData/Local/Temp/jetty-docbase.4847104276804823009.9000/],AVAILABLE}
+2018-01-16 16:25:33.997  INFO 1440 --- [main] org.eclipse.jetty.server.Server          : Started @5317ms
+2018-01-16 16:25:34.240  INFO 1440 --- [main] io.searchbox.client.AbstractJestClient   : Setting server pool to a list of 1 servers: [http://localhost:9200]
+2018-01-16 16:25:34.243  INFO 1440 --- [main] io.searchbox.client.JestClientFactory    : Using multi thread/connection supporting pooling connection manager
+2018-01-16 16:25:34.425  INFO 1440 --- [main] io.searchbox.client.JestClientFactory    : Using custom GSON instance
+2018-01-16 16:25:34.425  INFO 1440 --- [main] io.searchbox.client.JestClientFactory    : Node Discovery disabled...
+2018-01-16 16:25:34.426  INFO 1440 --- [main] io.searchbox.client.JestClientFactory    : Idle connection reaping disabled...
+2018-01-16 16:25:34.983  INFO 1440 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1151e434: startup date [Tue Jan 16 16:25:30 CST 2018]; root of context hierarchy
+2018-01-16 16:25:35.102  INFO 1440 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-16 16:25:35.104  INFO 1440 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-16 16:25:35.167  INFO 1440 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 16:25:35.167  INFO 1440 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 16:25:35.284  INFO 1440 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 16:25:43.696  INFO 1440 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-16 16:25:43.743  INFO 1440 --- [main] application                              : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-16 16:25:43.744  INFO 1440 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-16 16:25:43.793  INFO 1440 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 49 ms
+2018-01-16 16:25:43.830  INFO 1440 --- [main] o.eclipse.jetty.server.ServerConnector   : Started ServerConnector@43e9089{HTTP/1.1}{0.0.0.0:9000}
+2018-01-16 16:25:43.835  INFO 1440 --- [main] .s.b.c.e.j.JettyEmbeddedServletContainer : Jetty started on port(s) 9000 (http/1.1)
+2018-01-16 16:25:43.846  INFO 1440 --- [main] com.es.EsLauncher                        : Started EsLauncher in 13.789 seconds (JVM running for 15.166)
+2018-01-16 16:25:43.847  INFO 1440 --- [main] com.es.EsLauncher                        : ============= EsLauncher Start Success =============
+2018-01-16 16:30:49.260  INFO 8256 --- [main] com.es.EsLauncher                        : Starting EsLauncher on zhs with PID 8256 (E:\other\springboot-es\target\classes started by zhenghuasheng in E:\other\springboot-es)
+2018-01-16 16:30:49.267  INFO 8256 --- [main] com.es.EsLauncher                        : No active profile set, falling back to default profiles: default
+2018-01-16 16:30:49.386  INFO 8256 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12aba8be: startup date [Tue Jan 16 16:30:49 CST 2018]; root of context hierarchy
+2018-01-16 16:30:51.443  INFO 8256 --- [main] org.eclipse.jetty.util.log               : Logging initialized @4381ms
+2018-01-16 16:30:51.654  INFO 8256 --- [main] e.j.JettyEmbeddedServletContainerFactory : Server initialized with port: 9000
+2018-01-16 16:30:51.659  INFO 8256 --- [main] org.eclipse.jetty.server.Server          : jetty-9.2.17.v20160517
+2018-01-16 16:30:51.786  INFO 8256 --- [main] application                              : Initializing Spring embedded WebApplicationContext
+2018-01-16 16:30:51.787  INFO 8256 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2407 ms
+2018-01-16 16:30:51.982  INFO 8256 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-16 16:30:51.986  INFO 8256 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-16 16:30:51.987  INFO 8256 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-16 16:30:51.987  INFO 8256 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-16 16:30:51.987  INFO 8256 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-16 16:30:52.352  INFO 8256 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@227a47{/,[file:/C:/Users/zhenghuasheng/AppData/Local/Temp/jetty-docbase.5325640263204486327.9000/],AVAILABLE}
+2018-01-16 16:30:52.353  INFO 8256 --- [main] org.eclipse.jetty.server.Server          : Started @5292ms
+2018-01-16 16:30:52.562  INFO 8256 --- [main] io.searchbox.client.AbstractJestClient   : Setting server pool to a list of 1 servers: [http://10.16.2.131:9200]
+2018-01-16 16:30:52.565  INFO 8256 --- [main] io.searchbox.client.JestClientFactory    : Using multi thread/connection supporting pooling connection manager
+2018-01-16 16:30:52.712  INFO 8256 --- [main] io.searchbox.client.JestClientFactory    : Using custom GSON instance
+2018-01-16 16:30:52.712  INFO 8256 --- [main] io.searchbox.client.JestClientFactory    : Node Discovery disabled...
+2018-01-16 16:30:52.712  INFO 8256 --- [main] io.searchbox.client.JestClientFactory    : Idle connection reaping disabled...
+2018-01-16 16:30:53.072  INFO 8256 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12aba8be: startup date [Tue Jan 16 16:30:49 CST 2018]; root of context hierarchy
+2018-01-16 16:30:53.163  INFO 8256 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-16 16:30:53.164  INFO 8256 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-16 16:30:53.211  INFO 8256 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 16:30:53.211  INFO 8256 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 16:30:53.275  INFO 8256 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 16:31:03.430  INFO 8256 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-16 16:31:03.476  INFO 8256 --- [main] application                              : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-16 16:31:03.476  INFO 8256 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-16 16:31:03.523  INFO 8256 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 46 ms
+2018-01-16 16:31:03.554  INFO 8256 --- [main] o.eclipse.jetty.server.ServerConnector   : Started ServerConnector@9596ce8{HTTP/1.1}{0.0.0.0:9000}
+2018-01-16 16:31:03.559  INFO 8256 --- [main] .s.b.c.e.j.JettyEmbeddedServletContainer : Jetty started on port(s) 9000 (http/1.1)
+2018-01-16 16:31:03.575  INFO 8256 --- [main] com.es.EsLauncher                        : Started EsLauncher in 15.066 seconds (JVM running for 16.514)
+2018-01-16 16:31:03.575  INFO 8256 --- [main] com.es.EsLauncher                        : ============= EsLauncher Start Success =============
+2018-01-16 16:37:49.792  INFO 9040 --- [main] com.es.EsLauncher                        : Starting EsLauncher on zhs with PID 9040 (E:\other\springboot-es\target\classes started by zhenghuasheng in E:\other\springboot-es)
+2018-01-16 16:37:49.796  INFO 9040 --- [main] com.es.EsLauncher                        : No active profile set, falling back to default profiles: default
+2018-01-16 16:37:49.896  INFO 9040 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12aba8be: startup date [Tue Jan 16 16:37:49 CST 2018]; root of context hierarchy
+2018-01-16 16:37:51.736  INFO 9040 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3476ms
+2018-01-16 16:37:51.997  INFO 9040 --- [main] e.j.JettyEmbeddedServletContainerFactory : Server initialized with port: 9000
+2018-01-16 16:37:52.001  INFO 9040 --- [main] org.eclipse.jetty.server.Server          : jetty-9.2.17.v20160517
+2018-01-16 16:37:52.139  INFO 9040 --- [main] application                              : Initializing Spring embedded WebApplicationContext
+2018-01-16 16:37:52.139  INFO 9040 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2249 ms
+2018-01-16 16:37:52.336  INFO 9040 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-16 16:37:52.339  INFO 9040 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-16 16:37:52.339  INFO 9040 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-16 16:37:52.339  INFO 9040 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-16 16:37:52.340  INFO 9040 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-16 16:37:52.683  INFO 9040 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@45404d5{/,[file:/C:/Users/zhenghuasheng/AppData/Local/Temp/jetty-docbase.7716081991053037163.9000/],AVAILABLE}
+2018-01-16 16:37:52.685  INFO 9040 --- [main] org.eclipse.jetty.server.Server          : Started @4428ms
+2018-01-16 16:37:52.874  INFO 9040 --- [main] io.searchbox.client.AbstractJestClient   : Setting server pool to a list of 1 servers: [http://10.16.2.131:9200]
+2018-01-16 16:37:52.876  INFO 9040 --- [main] io.searchbox.client.JestClientFactory    : Using multi thread/connection supporting pooling connection manager
+2018-01-16 16:37:52.976  INFO 9040 --- [main] io.searchbox.client.JestClientFactory    : Using custom GSON instance
+2018-01-16 16:37:52.976  INFO 9040 --- [main] io.searchbox.client.JestClientFactory    : Node Discovery disabled...
+2018-01-16 16:37:52.976  INFO 9040 --- [main] io.searchbox.client.JestClientFactory    : Idle connection reaping disabled...
+2018-01-16 16:37:53.321  INFO 9040 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12aba8be: startup date [Tue Jan 16 16:37:49 CST 2018]; root of context hierarchy
+2018-01-16 16:37:53.402  INFO 9040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/save],methods=[GET]}" onto public java.lang.String com.es.controller.EsController.save(java.lang.Long,java.lang.String)
+2018-01-16 16:37:53.403  INFO 9040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/query],methods=[GET]}" onto public java.util.List<com.es.model.EsEntity> com.es.controller.EsController.getData(java.lang.String)
+2018-01-16 16:37:53.407  INFO 9040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-16 16:37:53.407  INFO 9040 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-16 16:37:53.466  INFO 9040 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 16:37:53.467  INFO 9040 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 16:37:53.517  INFO 9040 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 16:38:02.880  INFO 9040 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-16 16:38:02.930  INFO 9040 --- [main] application                              : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-16 16:38:02.931  INFO 9040 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-16 16:38:02.969  INFO 9040 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms
+2018-01-16 16:38:03.000  INFO 9040 --- [main] o.eclipse.jetty.server.ServerConnector   : Started ServerConnector@29138d3a{HTTP/1.1}{0.0.0.0:9000}
+2018-01-16 16:38:03.007  INFO 9040 --- [main] .s.b.c.e.j.JettyEmbeddedServletContainer : Jetty started on port(s) 9000 (http/1.1)
+2018-01-16 16:38:03.020  INFO 9040 --- [main] com.es.EsLauncher                        : Started EsLauncher in 13.798 seconds (JVM running for 14.762)
+2018-01-16 16:38:03.021  INFO 9040 --- [main] com.es.EsLauncher                        : ============= EsLauncher Start Success =============
+2018-01-16 16:38:45.770  INFO 9040 --- [qtp1044965465-24] com.es.service.EsServiceImpl             : save es data success!
+2018-01-16 16:38:46.768  INFO 9040 --- [qtp1044965465-25] com.es.service.EsServiceImpl             : save es data success!
+2018-01-16 16:39:13.547  INFO 9040 --- [qtp1044965465-25] com.es.service.EsServiceImpl             : save es data success!
+2018-01-16 16:39:13.937  INFO 9040 --- [qtp1044965465-21] com.es.service.EsServiceImpl             : save es data success!
+2018-01-16 16:39:59.727  INFO 9040 --- [qtp1044965465-25] com.es.service.EsServiceImpl             : save es data success!
+2018-01-16 16:40:00.529  INFO 9040 --- [qtp1044965465-40] com.es.service.EsServiceImpl             : save es data success!
+2018-01-16 16:40:11.326  INFO 9040 --- [qtp1044965465-40] com.es.service.EsServiceImpl             : save es data success!
+2018-01-16 16:40:12.125  INFO 9040 --- [qtp1044965465-21] com.es.service.EsServiceImpl             : save es data success!
+2018-01-16 16:41:28.172  INFO 9040 --- [qtp1044965465-21] com.es.service.EsServiceImpl             : {"root_cause":[{"type":"parsing_exception","reason":"[match] query does not support [type]","line":6,"col":18}],"type":"parsing_exception","reason":"[match] query does not support [type]","line":6,"col":18}
+2018-01-16 16:41:49.433  INFO 9040 --- [qtp1044965465-40] com.es.service.EsServiceImpl             : {"root_cause":[{"type":"parsing_exception","reason":"[match] query does not support [type]","line":6,"col":18}],"type":"parsing_exception","reason":"[match] query does not support [type]","line":6,"col":18}
+2018-01-16 16:44:03.351  INFO 9040 --- [qtp1044965465-21] com.es.service.EsServiceImpl             : {"root_cause":[{"type":"parsing_exception","reason":"[match] query does not support [type]","line":6,"col":18}],"type":"parsing_exception","reason":"[match] query does not support [type]","line":6,"col":18}
+2018-01-16 16:54:07.081  INFO 308 --- [main] com.es.EsLauncher                        : Starting EsLauncher on zhs with PID 308 (E:\other\springboot-es\target\classes started by zhenghuasheng in E:\other\springboot-es)
+2018-01-16 16:54:07.088  INFO 308 --- [main] com.es.EsLauncher                        : No active profile set, falling back to default profiles: default
+2018-01-16 16:54:07.205  INFO 308 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12aba8be: startup date [Tue Jan 16 16:54:07 CST 2018]; root of context hierarchy
+2018-01-16 16:54:09.450  INFO 308 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3945ms
+2018-01-16 16:54:09.735  INFO 308 --- [main] e.j.JettyEmbeddedServletContainerFactory : Server initialized with port: 9000
+2018-01-16 16:54:09.740  INFO 308 --- [main] org.eclipse.jetty.server.Server          : jetty-9.2.17.v20160517
+2018-01-16 16:54:09.906  INFO 308 --- [main] application                              : Initializing Spring embedded WebApplicationContext
+2018-01-16 16:54:09.907  INFO 308 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2708 ms
+2018-01-16 16:54:10.166  INFO 308 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-16 16:54:10.170  INFO 308 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-16 16:54:10.171  INFO 308 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-16 16:54:10.171  INFO 308 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-16 16:54:10.171  INFO 308 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-16 16:54:10.637  INFO 308 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@2e6f610d{/,[file:/C:/Users/zhenghuasheng/AppData/Local/Temp/jetty-docbase.402357101978118065.9000/],AVAILABLE}
+2018-01-16 16:54:10.638  INFO 308 --- [main] org.eclipse.jetty.server.Server          : Started @5134ms
+2018-01-16 16:54:10.879  INFO 308 --- [main] io.searchbox.client.AbstractJestClient   : Setting server pool to a list of 1 servers: [http://10.16.2.131:9200]
+2018-01-16 16:54:10.883  INFO 308 --- [main] io.searchbox.client.JestClientFactory    : Using multi thread/connection supporting pooling connection manager
+2018-01-16 16:54:10.979  INFO 308 --- [main] io.searchbox.client.JestClientFactory    : Using custom GSON instance
+2018-01-16 16:54:10.979  INFO 308 --- [main] io.searchbox.client.JestClientFactory    : Node Discovery disabled...
+2018-01-16 16:54:10.979  INFO 308 --- [main] io.searchbox.client.JestClientFactory    : Idle connection reaping disabled...
+2018-01-16 16:54:11.392  INFO 308 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12aba8be: startup date [Tue Jan 16 16:54:07 CST 2018]; root of context hierarchy
+2018-01-16 16:54:11.476  INFO 308 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/save],methods=[GET]}" onto public java.lang.String com.es.controller.EsController.save(java.lang.Long,java.lang.String)
+2018-01-16 16:54:11.477  INFO 308 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/query],methods=[GET]}" onto public java.util.List<com.es.model.EsEntity> com.es.controller.EsController.getData(java.lang.String)
+2018-01-16 16:54:11.482  INFO 308 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-16 16:54:11.483  INFO 308 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-16 16:54:11.536  INFO 308 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 16:54:11.536  INFO 308 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 16:54:11.593  INFO 308 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 16:54:19.385  INFO 308 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-16 16:54:19.428  INFO 308 --- [main] application                              : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-16 16:54:19.428  INFO 308 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-16 16:54:19.468  INFO 308 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 39 ms
+2018-01-16 16:54:19.496  INFO 308 --- [main] o.eclipse.jetty.server.ServerConnector   : Started ServerConnector@1e86a5a7{HTTP/1.1}{0.0.0.0:9000}
+2018-01-16 16:54:19.501  INFO 308 --- [main] .s.b.c.e.j.JettyEmbeddedServletContainer : Jetty started on port(s) 9000 (http/1.1)
+2018-01-16 16:54:19.513  INFO 308 --- [main] com.es.EsLauncher                        : Started EsLauncher in 13.1 seconds (JVM running for 14.01)
+2018-01-16 16:54:19.514  INFO 308 --- [main] com.es.EsLauncher                        : ============= EsLauncher Start Success =============
+2018-01-16 16:54:31.404  INFO 308 --- [qtp1095849663-20] com.es.service.EsServiceImpl             : {"root_cause":[{"type":"parsing_exception","reason":"[match] query does not support [type]","line":6,"col":18}],"type":"parsing_exception","reason":"[match] query does not support [type]","line":6,"col":18}
+2018-01-16 16:56:49.565  INFO 1740 --- [main] com.es.EsLauncher                        : Starting EsLauncher on zhs with PID 1740 (E:\other\springboot-es\target\classes started by zhenghuasheng in E:\other\springboot-es)
+2018-01-16 16:56:49.571  INFO 1740 --- [main] com.es.EsLauncher                        : No active profile set, falling back to default profiles: default
+2018-01-16 16:56:49.655  INFO 1740 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12aba8be: startup date [Tue Jan 16 16:56:49 CST 2018]; root of context hierarchy
+2018-01-16 16:56:51.009  INFO 1740 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3043ms
+2018-01-16 16:56:51.210  INFO 1740 --- [main] e.j.JettyEmbeddedServletContainerFactory : Server initialized with port: 9000
+2018-01-16 16:56:51.213  INFO 1740 --- [main] org.eclipse.jetty.server.Server          : jetty-9.2.17.v20160517
+2018-01-16 16:56:51.343  INFO 1740 --- [main] application                              : Initializing Spring embedded WebApplicationContext
+2018-01-16 16:56:51.343  INFO 1740 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1693 ms
+2018-01-16 16:56:51.538  INFO 1740 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-16 16:56:51.541  INFO 1740 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-16 16:56:51.542  INFO 1740 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-16 16:56:51.542  INFO 1740 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-16 16:56:51.542  INFO 1740 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-16 16:56:51.904  INFO 1740 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@268cbb86{/,[file:/C:/Users/zhenghuasheng/AppData/Local/Temp/jetty-docbase.8057282933894286691.9000/],AVAILABLE}
+2018-01-16 16:56:51.904  INFO 1740 --- [main] org.eclipse.jetty.server.Server          : Started @3940ms
+2018-01-16 16:56:52.094  INFO 1740 --- [main] io.searchbox.client.AbstractJestClient   : Setting server pool to a list of 1 servers: [http://10.16.2.131:9200]
+2018-01-16 16:56:52.097  INFO 1740 --- [main] io.searchbox.client.JestClientFactory    : Using multi thread/connection supporting pooling connection manager
+2018-01-16 16:56:52.192  INFO 1740 --- [main] io.searchbox.client.JestClientFactory    : Using custom GSON instance
+2018-01-16 16:56:52.192  INFO 1740 --- [main] io.searchbox.client.JestClientFactory    : Node Discovery disabled...
+2018-01-16 16:56:52.192  INFO 1740 --- [main] io.searchbox.client.JestClientFactory    : Idle connection reaping disabled...
+2018-01-16 16:56:52.567  INFO 1740 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12aba8be: startup date [Tue Jan 16 16:56:49 CST 2018]; root of context hierarchy
+2018-01-16 16:56:52.661  INFO 1740 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/save],methods=[GET]}" onto public java.lang.String com.es.controller.EsController.save(java.lang.Long,java.lang.String)
+2018-01-16 16:56:52.663  INFO 1740 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/query],methods=[GET]}" onto public java.util.List<com.es.model.EsEntity> com.es.controller.EsController.getData(java.lang.String)
+2018-01-16 16:56:52.668  INFO 1740 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-16 16:56:52.668  INFO 1740 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-16 16:56:52.714  INFO 1740 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 16:56:52.715  INFO 1740 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 16:56:52.774  INFO 1740 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 16:57:00.548  INFO 1740 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-16 16:57:00.591  INFO 1740 --- [main] application                              : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-16 16:57:00.592  INFO 1740 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-16 16:57:00.658  INFO 1740 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 66 ms
+2018-01-16 16:57:00.697  INFO 1740 --- [main] o.eclipse.jetty.server.ServerConnector   : Started ServerConnector@10f7918f{HTTP/1.1}{0.0.0.0:9000}
+2018-01-16 16:57:00.705  INFO 1740 --- [main] .s.b.c.e.j.JettyEmbeddedServletContainer : Jetty started on port(s) 9000 (http/1.1)
+2018-01-16 16:57:00.721  INFO 1740 --- [main] com.es.EsLauncher                        : Started EsLauncher in 11.672 seconds (JVM running for 12.757)
+2018-01-16 16:57:00.722  INFO 1740 --- [main] com.es.EsLauncher                        : ============= EsLauncher Start Success =============
+2018-01-16 16:57:38.397  INFO 1740 --- [qtp990226843-24] com.es.service.EsServiceImpl             : {"root_cause":[{"type":"parsing_exception","reason":"[match] query does not support [type]","line":6,"col":18}],"type":"parsing_exception","reason":"[match] query does not support [type]","line":6,"col":18}
+2018-01-16 17:04:43.754  INFO 1740 --- [qtp990226843-20] com.es.service.EsServiceImpl             : {"root_cause":[{"type":"parsing_exception","reason":"[match] query does not support [type]","line":6,"col":18}],"type":"parsing_exception","reason":"[match] query does not support [type]","line":6,"col":18}
+2018-01-16 17:07:57.281  INFO 1740 --- [qtp990226843-24] com.es.service.EsServiceImpl             : {"root_cause":[{"type":"parsing_exception","reason":"[match] query does not support [type]","line":6,"col":18}],"type":"parsing_exception","reason":"[match] query does not support [type]","line":6,"col":18}
+2018-01-16 17:09:41.516  INFO 1740 --- [qtp990226843-25] com.es.service.EsServiceImpl             : {"root_cause":[{"type":"parsing_exception","reason":"[match] query does not support [type]","line":6,"col":18}],"type":"parsing_exception","reason":"[match] query does not support [type]","line":6,"col":18}
+2018-01-16 17:11:59.891  INFO 8952 --- [main] com.es.EsLauncher                        : Starting EsLauncher on zhs with PID 8952 (E:\other\springboot-es\target\classes started by zhenghuasheng in E:\other\springboot-es)
+2018-01-16 17:11:59.898  INFO 8952 --- [main] com.es.EsLauncher                        : No active profile set, falling back to default profiles: default
+2018-01-16 17:12:00.007  INFO 8952 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12aba8be: startup date [Tue Jan 16 17:12:00 CST 2018]; root of context hierarchy
+2018-01-16 17:12:01.818  INFO 8952 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3620ms
+2018-01-16 17:12:02.027  INFO 8952 --- [main] e.j.JettyEmbeddedServletContainerFactory : Server initialized with port: 9000
+2018-01-16 17:12:02.031  INFO 8952 --- [main] org.eclipse.jetty.server.Server          : jetty-9.2.17.v20160517
+2018-01-16 17:12:02.162  INFO 8952 --- [main] application                              : Initializing Spring embedded WebApplicationContext
+2018-01-16 17:12:02.162  INFO 8952 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2160 ms
+2018-01-16 17:12:02.356  INFO 8952 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-16 17:12:02.360  INFO 8952 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-16 17:12:02.361  INFO 8952 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-16 17:12:02.362  INFO 8952 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-16 17:12:02.362  INFO 8952 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-16 17:12:02.692  INFO 8952 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@24db6ce{/,[file:/C:/Users/zhenghuasheng/AppData/Local/Temp/jetty-docbase.1304529564198462975.9000/],AVAILABLE}
+2018-01-16 17:12:02.693  INFO 8952 --- [main] org.eclipse.jetty.server.Server          : Started @4497ms
+2018-01-16 17:12:02.889  INFO 8952 --- [main] io.searchbox.client.AbstractJestClient   : Setting server pool to a list of 1 servers: [http://10.16.2.131:9200]
+2018-01-16 17:12:02.892  INFO 8952 --- [main] io.searchbox.client.JestClientFactory    : Using multi thread/connection supporting pooling connection manager
+2018-01-16 17:12:02.995  INFO 8952 --- [main] io.searchbox.client.JestClientFactory    : Using custom GSON instance
+2018-01-16 17:12:02.995  INFO 8952 --- [main] io.searchbox.client.JestClientFactory    : Node Discovery disabled...
+2018-01-16 17:12:02.995  INFO 8952 --- [main] io.searchbox.client.JestClientFactory    : Idle connection reaping disabled...
+2018-01-16 17:12:03.380  INFO 8952 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12aba8be: startup date [Tue Jan 16 17:12:00 CST 2018]; root of context hierarchy
+2018-01-16 17:12:03.477  INFO 8952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/save],methods=[GET]}" onto public java.lang.String com.es.controller.EsController.save(java.lang.Long,java.lang.String)
+2018-01-16 17:12:03.478  INFO 8952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/query],methods=[GET]}" onto public java.util.List<com.es.model.EsEntity> com.es.controller.EsController.getData(java.lang.String)
+2018-01-16 17:12:03.485  INFO 8952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-16 17:12:03.486  INFO 8952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-16 17:12:03.534  INFO 8952 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 17:12:03.534  INFO 8952 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 17:12:03.629  INFO 8952 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 17:12:13.507  INFO 8952 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-16 17:12:13.554  INFO 8952 --- [main] application                              : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-16 17:12:13.554  INFO 8952 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-16 17:12:13.595  INFO 8952 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 41 ms
+2018-01-16 17:12:13.636  INFO 8952 --- [main] o.eclipse.jetty.server.ServerConnector   : Started ServerConnector@320a8ebf{HTTP/1.1}{0.0.0.0:9000}
+2018-01-16 17:12:13.643  INFO 8952 --- [main] .s.b.c.e.j.JettyEmbeddedServletContainer : Jetty started on port(s) 9000 (http/1.1)
+2018-01-16 17:12:13.655  INFO 8952 --- [main] com.es.EsLauncher                        : Started EsLauncher in 14.419 seconds (JVM running for 15.459)
+2018-01-16 17:12:13.656  INFO 8952 --- [main] com.es.EsLauncher                        : ============= EsLauncher Start Success =============
+2018-01-16 17:12:35.291  INFO 8952 --- [qtp1757032717-23] com.es.service.EsServiceImpl             : {"root_cause":[{"type":"parsing_exception","reason":"[match] query does not support [type]","line":6,"col":18}],"type":"parsing_exception","reason":"[match] query does not support [type]","line":6,"col":18}
+2018-01-16 17:18:49.641  INFO 3424 --- [main] com.es.EsLauncher                        : Starting EsLauncher on zhs with PID 3424 (E:\other\springboot-es\target\classes started by zhenghuasheng in E:\other\springboot-es)
+2018-01-16 17:18:49.645  INFO 3424 --- [main] com.es.EsLauncher                        : No active profile set, falling back to default profiles: default
+2018-01-16 17:18:49.735  INFO 3424 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12aba8be: startup date [Tue Jan 16 17:18:49 CST 2018]; root of context hierarchy
+2018-01-16 17:18:51.326  INFO 3424 --- [main] org.eclipse.jetty.util.log               : Logging initialized @2994ms
+2018-01-16 17:18:51.888  INFO 3424 --- [main] e.j.JettyEmbeddedServletContainerFactory : Server initialized with port: 9000
+2018-01-16 17:18:51.903  INFO 3424 --- [main] org.eclipse.jetty.server.Server          : jetty-9.2.17.v20160517
+2018-01-16 17:18:52.419  INFO 3424 --- [main] application                              : Initializing Spring embedded WebApplicationContext
+2018-01-16 17:18:52.421  INFO 3424 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2691 ms
+2018-01-16 17:18:53.016  INFO 3424 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-16 17:18:53.027  INFO 3424 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-16 17:18:53.027  INFO 3424 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-16 17:18:53.028  INFO 3424 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-16 17:18:53.029  INFO 3424 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-16 17:18:53.945  INFO 3424 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@654c7d2d{/,[file:/C:/Users/zhenghuasheng/AppData/Local/Temp/jetty-docbase.7465795967617879090.9000/],AVAILABLE}
+2018-01-16 17:18:53.946  INFO 3424 --- [main] org.eclipse.jetty.server.Server          : Started @5616ms
+2018-01-16 17:18:54.374  INFO 3424 --- [main] io.searchbox.client.AbstractJestClient   : Setting server pool to a list of 1 servers: [http://10.16.2.131:9200]
+2018-01-16 17:18:54.381  INFO 3424 --- [main] io.searchbox.client.JestClientFactory    : Using multi thread/connection supporting pooling connection manager
+2018-01-16 17:18:54.651  INFO 3424 --- [main] io.searchbox.client.JestClientFactory    : Using custom GSON instance
+2018-01-16 17:18:54.651  INFO 3424 --- [main] io.searchbox.client.JestClientFactory    : Node Discovery disabled...
+2018-01-16 17:18:54.652  INFO 3424 --- [main] io.searchbox.client.JestClientFactory    : Idle connection reaping disabled...
+2018-01-16 17:18:55.412  INFO 3424 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12aba8be: startup date [Tue Jan 16 17:18:49 CST 2018]; root of context hierarchy
+2018-01-16 17:18:55.590  INFO 3424 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/save],methods=[GET]}" onto public java.lang.String com.es.controller.EsController.save(java.lang.Long,java.lang.String)
+2018-01-16 17:18:55.592  INFO 3424 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/query],methods=[GET]}" onto public java.util.List<com.es.model.EsEntity> com.es.controller.EsController.getData(java.lang.String)
+2018-01-16 17:18:55.598  INFO 3424 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-16 17:18:55.600  INFO 3424 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-16 17:18:55.714  INFO 3424 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 17:18:55.715  INFO 3424 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 17:18:55.811  INFO 3424 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-16 17:19:05.864  INFO 3424 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-16 17:19:05.907  INFO 3424 --- [main] application                              : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-16 17:19:05.908  INFO 3424 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-16 17:19:05.947  INFO 3424 --- [main] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 39 ms
+2018-01-16 17:19:05.979  INFO 3424 --- [main] o.eclipse.jetty.server.ServerConnector   : Started ServerConnector@26cb5207{HTTP/1.1}{0.0.0.0:9000}
+2018-01-16 17:19:05.986  INFO 3424 --- [main] .s.b.c.e.j.JettyEmbeddedServletContainer : Jetty started on port(s) 9000 (http/1.1)
+2018-01-16 17:19:05.998  INFO 3424 --- [main] com.es.EsLauncher                        : Started EsLauncher in 16.904 seconds (JVM running for 17.667)
+2018-01-16 17:19:05.998  INFO 3424 --- [main] com.es.EsLauncher                        : ============= EsLauncher Start Success =============
