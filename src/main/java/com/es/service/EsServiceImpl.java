@@ -6,6 +6,7 @@ import io.searchbox.client.JestResult;
 import io.searchbox.core.Bulk;
 import io.searchbox.core.Index;
 import io.searchbox.core.Search;
+import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.builder.SearchSourceBuilder;
 import org.slf4j.Logger;
@@ -66,7 +67,9 @@ public class EsServiceImpl implements EsService {
     @Override
     public List<EsEntity> searchEsDatas(String param) {
         SearchSourceBuilder ssb = new SearchSourceBuilder();
-        ssb.query(QueryBuilders.commonTermsQuery("name", param));
+
+        QueryBuilder queryBuilders = QueryBuilders.commonTermsQuery("name",param);
+        ssb.query(queryBuilders);
 
         Search search = new Search.Builder(ssb.toString()).addIndex(EsEntity.INDEX).addType(EsEntity.TYPE).build();
         try {
