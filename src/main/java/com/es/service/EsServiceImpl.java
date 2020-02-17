@@ -68,7 +68,8 @@ public class EsServiceImpl implements EsService {
     public List<EsEntity> searchEsDatas(String param) {
         SearchSourceBuilder ssb = new SearchSourceBuilder();
 
-        QueryBuilder queryBuilders = QueryBuilders.commonTermsQuery("name",param);
+        QueryBuilder queryBuilders = QueryBuilders
+                .commonTermsQuery("name",param);
         ssb.query(queryBuilders);
 
         Search search = new Search.Builder(ssb.toString()).addIndex(EsEntity.INDEX).addType(EsEntity.TYPE).build();
